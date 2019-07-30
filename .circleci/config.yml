@@ -46,5 +46,4 @@ jobs:
         override:    
         - mocha
 
-      # run tests!
-      - run: npm test
+      
