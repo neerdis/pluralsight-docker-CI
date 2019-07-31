@@ -18,6 +18,8 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:8
+       macos: 
+        xcode: "9.0"
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -45,5 +47,3 @@ jobs:
     test:
         override:    
         - mocha
-
-      
